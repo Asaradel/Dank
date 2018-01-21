@@ -36,4 +36,15 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+        /**
+     * Show the application dashboard.
+     *
+     * @return Response
+     */
+    public function show()
+    {
+        return view('login');
+    }
+
 }
