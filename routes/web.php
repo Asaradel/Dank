@@ -15,4 +15,4 @@ Route::get('/', 'WelcomeController@show');
 
 Route::get('/home', 'HomeController@show');
 
-Route::get('/login', 'LoginController@show');
+Route::get('/login', 'LoginConroller@show');

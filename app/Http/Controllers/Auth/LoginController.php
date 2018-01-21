@@ -38,7 +38,7 @@ class LoginController extends Controller
     }
 
         /**
-     * Show the application dashboard.
+     * Show the login screen.
      *
      * @return Response
      */
@@ -46,5 +46,4 @@ class LoginController extends Controller
     {
         return view('login');
     }
-
 }
