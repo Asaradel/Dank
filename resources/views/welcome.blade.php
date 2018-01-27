@@ -73,6 +73,7 @@
 
         <div class="flex-fill flex-center">
             <h1 class="text-center">
+                <img src="/img/alesha.png">
             </h1>
         </div>
     </div>
